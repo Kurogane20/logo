@@ -1,5 +1,25 @@
+# dependencies
 node_modules
+
+# build output and caches
 dist
+*.tsbuildinfo
+
+# deploy
 .vercel
+
+# environment variables (never commit secrets); keep an example file if one is added
+.env
+.env.*
+!.env.example
+*.local
+
+# logs
 *.log
+
+# editor and OS files
+.vscode/*
+!.vscode/extensions.json
+.idea
 .DS_Store
+Thumbs.db
